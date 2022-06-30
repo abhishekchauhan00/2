@@ -5,6 +5,7 @@ body{
 
 header{
     border:2px solid black;
+    width: 758px;
 }
 .left img {
 
@@ -92,6 +93,10 @@ header{
     align-items: center;
 
 }
+#about{
+    width: 758px;
+}
+
 #about .h-primary {
    width:fit-content;
    font: normal normal bold 26px/43px Playfair Display;
@@ -165,6 +170,13 @@ header{
     font: normal normal bold 36px/23px Playfair Display;
    
 }
+#logo-1 {
+    width: 758px;
+}
+#logo-2 {
+    width: 758px;
+}
+
 .logo-1 img{
     width: 500px;
     height: 50px;
@@ -172,4 +184,7 @@ header{
 .logo2 img{
     width: 500px;
     height: 60px;
+}
+footer{
+    width:758px;
 }
