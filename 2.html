@@ -11,9 +11,28 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script>
+    public innerWidth: any;
+ngOnInit() {
+    this.innerWidth = window.innerWidth;
+}
+    const routes: Routes = [{
+  path: '',
+  component:  window.screen.width > 767 ? WelcomeDesktopComponent : WelcomeMobileComponent
+}];
+
+this.deviceType = (window.innerWidth > 575) ? 'Desktop' : 'Mobile';
+if (item.fields) {
+
+if (
+  (this.deviceType == 'Mobile'
+  ||
+  (this.deviceType == 'Desktop' 
+)
+  </script>
 </head>
 <body>
-
+<s
     <div  class="container" style="background-color: #ffffff; height: 10vh; margin-top: 1rem;">
 <div class="row" style="background-color: #ffffff; height: 20vh;">
     <div class="col-lg-6 topbar" >
