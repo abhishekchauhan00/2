@@ -27,6 +27,7 @@ header{
 
 .nav-list a {
     font: normal normal 600 10px/20px Poppins;
+    padding:0px 20px;
 }
 .btn {
     width: 60px;
